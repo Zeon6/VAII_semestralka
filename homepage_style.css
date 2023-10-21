@@ -2,10 +2,15 @@ body {
     font-family: Arial, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .navbar {
     display: flex;
     align-items: center;
-    background-color: #f69d68;
+    background-color: #8660e5;
     padding: 10px;
     border-radius: 25px;
 }
@@ -32,4 +37,27 @@ body {
 .list {
     display: flex;
     margin-left: auto;
+}
+
+.srch-bar {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search-bar {
+    height: 5vh;
+    width: 50vh;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+
+.srch-btn {
+    height: 5vh;
+    width: 10vh;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
 }
