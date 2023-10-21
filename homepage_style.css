@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #f69d68;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.logo {
+    display: inline;
+    width: 90px;
+    height: auto;
+}
+
+.nav-items {
+    list-style: none;
+    cursor: pointer;
+}
+
+.nav-item {
+    display: inline;
+    margin-right: 10px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+.list {
+    display: flex;
+    margin-left: auto;
+}
