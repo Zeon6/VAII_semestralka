@@ -62,3 +62,29 @@ a {
     font-size: 20px;
     cursor: pointer;
 }
+
+.welcome {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+    margin-top: 20px;
+    background-color: #575757;
+    padding: 10px;
+    border-radius: 50px;
+    transition: background-color 1s;
+}
+
+.welcome:hover {
+    background-color: #737171;
+}
+
+.welcome-logo {
+    height: 25vh;
+    margin-right: 40px;
+    border-radius: 125px;
+}
+
+.welcome-text {
+    padding: 20px;
+}
