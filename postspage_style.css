@@ -1,0 +1,37 @@
+body {
+    background-color: #89c5ee;
+}
+
+.posts-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.post {
+    border-radius: 5px;
+    width: 30%;
+    min-width: 200px;
+    height: auto;
+    max-height: 300px;
+    margin: 20px;
+    overflow: hidden;
+    transition: box-shadow 0.5s;
+}
+
+.post:hover {
+    box-shadow: 5px 5px 15px black;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+.post-body {
+    padding: 10px;
+    background-color: white;
+}
